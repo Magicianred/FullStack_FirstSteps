@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+    <style>
+        #divwidth { width: 70%;}
+    </style>
+</head>
+<body>
+    <!-- 
+    GET method is 100% insecure 
+    POST method does not show variables in the URL bar 
+    -->
+    <div id="divwidth">
+        <br>
+        <br>
+        <br>
+        <br>
+    <form method="GET" action="div.html">
+        <fieldset>
+            <legend> Insecure GET </legend>
+            <label for="firstname">First name:</label>
+            <input type="text" name="firstname">
+            <br>
+            <label for="lastname">Last name:</label>
+            <input type="text" name="lastname">
+            <br>
+            <label for="password">Password</label>
+            <input type="password" name="password">
+            <br>
+            <input type="submit" value="Submit">
+        </fieldset> 
+    </form>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div>
+    <form method="GET" action="div.html">
+            <fieldset>
+                <legend> Text Area</legend>
+                <textarea placeholder="This is a tag <textarea>" cols="70" rows="10"></textarea>
+                <br>
+                <button type="reset">Reset Text</button>
+                <button type="submit">Submit</button>
+
+            </fieldset>
+    </form>        
+        </div>  
+        <br>
+        <br>
+        <br>
+        <br>
+        <div>
+            <form method="GET" action="">
+                <fieldset>
+                    <legend>Dropdown menus</legend>
+                    <select id="" class="" name="selected_item" required>
+                        <option selected disabled>Select an option</option>
+                        <option value="Option_1">Option 1</option>
+                        <option value="Option_2">Option 4</option>
+                        <option value="Option_3">This can be anything</option>
+                        <option value="Option_4">Option 1</option>
+                    </select>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>      
+
+
+    
+    </div>
+
+</body>
+</html>
