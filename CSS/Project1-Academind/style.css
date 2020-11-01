@@ -1,0 +1,67 @@
+/* ELEMENTS */
+html {
+    background-color: #fafafa;
+}
+
+body{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #2962ff;
+}
+
+/* CLASSES */
+
+/* Header */
+.header-space {
+    height: 70px;
+}
+.page-title {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    color:aliceblue;
+    background-color: #212121;
+    text-align: center;
+}
+
+.page-title h1 {
+    margin: auto;
+    left: 50px;
+}
+
+/* Nav */
+.navigation {
+    text-align: center;
+    padding: 0;
+
+}
+.navigation li, a {
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    
+}
+
+/* Main */
+.img-titles p {
+    color: red;
+    margin: 0;
+    padding: 0px;
+    display: inline-block;
+    width: 50%;
+}
+
+/* Footer */
+.comment p, .comment img{
+    display: inline;
+    vertical-align: middle;
+}
+
+
+
+ 
