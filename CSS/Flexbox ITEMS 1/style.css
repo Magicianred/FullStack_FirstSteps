@@ -1,0 +1,73 @@
+html {
+    background-color:#212121;
+    padding: 10px;
+}
+
+body {
+    background-color: #1b1b1b;
+    padding: 10px;
+    margin: 0;
+}
+
+/*flexbox*/
+.parent {
+    background-color: #424242;
+    margin: 10px;
+    padding: 30px;
+    height: 600px;
+    display: flex;
+    flex-flow: row wrap; /*flex-direction flex-wrap*/
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+/*
+
+    FLEX ITEMS ATTRIBUTES
+
+*/
+
+
+.div1 {
+    background-color: #6d6d6d;
+    margin: 5px;
+    order: 1; /* The order value must be a number, default value is 0.*/
+}
+
+.div2 {
+    background-color: #6d6d6d;
+    margin: 5px;
+    width: 150px;
+    font-size: 30px;
+    align-self: flex-start; /* related to the CROSS-AXIS like align-items but JUST A SINGLE ITEM*/
+}
+
+.div3 {
+    background-color:#6d6d6d;
+    margin: 5px;
+    height: 150px;
+}
+
+.div4 {
+    background-color: #6d6d6d;
+    margin: 5px;
+    width: 150px;
+    height: 150px;         
+}
+
+.div5 {
+    background-color: #6d6d6d;
+    margin: 5px;
+    width: 200px;
+    flex: 1 1 auto; /* values order: flex-grow flex-shrink flex-basis */  
+    /* The flex-basis property specifies the initial length of a flex item, RELATED TO THE MAIN-AXIS*/    
+}
+
+.div6 {
+    background-color:#6d6d6d;
+    margin: 5px;
+    width: 200px;
+    flex: 3 1 100px; /* bigger flex-grow: increases more */
+}

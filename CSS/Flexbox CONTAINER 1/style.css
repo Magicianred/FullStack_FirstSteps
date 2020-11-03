@@ -1,0 +1,97 @@
+html {
+    background-color:#212121;
+    padding: 10px;
+}
+
+body {
+    background-color: #1b1b1b;
+    padding: 10px;
+    margin: 0;
+}
+
+/*flexbox*/
+.parent {
+    background-color: #424242;
+    margin: 10px;
+    padding: 30px;
+    height: 500px;
+
+    display: inline-flex; /*behaves like inline element*/
+}
+
+.parent2 {
+    background-color: #424242;
+    margin: 10px;
+    padding: 30px;
+    height: 500px;
+    display: flex;
+    flex-flow: row nowrap; /*flex-direction flex-wrap*/
+    
+}
+
+.parent3 {
+    background-color: #424242;
+    margin: 10px;
+    padding: 30px;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap; /*flex-direction flex-wrap*/
+}
+
+.parent4 {
+    background-color: #424242;
+    margin: 10px;
+    padding: 30px;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap; /*flex-direction flex-wrap*/
+    align-items: center; /*default is STRETCH, now is just the content space, changes the CROSS AXIS (vertical)*/
+    justify-content:center; /*changes MAIN AXIS (horizontal)*/
+    align-content: flex-start; /*flex-direction flex-wrap*/
+}
+
+.parent5 {
+    background-color: #424242;
+    margin: 10px;
+    padding: 30px;
+    height: 500px;
+    display: flex;
+    flex-flow: column wrap; /*flex-direction flex-wrap*/
+}
+
+.div1 {
+    background-color: #6d6d6d;
+    margin: 5px;
+}
+
+.div2 {
+    background-color: #6d6d6d;
+    margin: 5px;
+    width: 150px;
+    font-size: 30px;
+}
+
+.div3 {
+    background-color:#6d6d6d;
+    margin: 5px;
+    height: 150px;
+}
+
+.div4 {
+    background-color: #6d6d6d;
+    margin: 5px;
+    width: 150px;
+    height: 150px;         
+}
+
+.div5 {
+    background-color: #6d6d6d;
+    margin: 5px;
+    width: 200px;           
+}
+
+.div6 {
+    background-color:#6d6d6d;
+    margin: 5px;
+    width: 200px;
+}
