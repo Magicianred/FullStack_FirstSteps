@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header and Nav</title>
+</head>
+<body>
+    <header role="banner">
+        [Logo, navigation, etc...]
+    </header>
+    <article>
+        <header>
+            <h1>Frequently Asked Questions</h1>
+            <p> &lt;header&gt; For menu bar (masthead)/navigation bar, also for marking up introductory or navigational content deeper within a page, like table of contents.</p>
+            <p>&lt;nav&gt; For sections of major navigation links, not only on masthead, but Link lists (like the FAQ), asides, sidebars, footer if they repeat masthead and major links like "Store Location" and "Careers"(top-level global navigation and IMPORTANT LINKS).</p>
+            <nav role="navigation">
+                <ul>
+                    <li><a href="#answer1">What is the return policy?</a></li>
+                    <li><a href="#answer2">How do I find a location?</a></li>
+                </ul>
+            </nav>
+        
+        </header>
+
+        <article id="answer1">
+            <h2>What is the return policy?</h2>
+            <p> ... [answer] ...</p>
+        </article>
+
+        <article id="answer2">
+            <h2>How do I find a location?</h2>
+            <p> ... [answer] ...</p>
+        </article>
+    </article>
+</body>
+</html>
