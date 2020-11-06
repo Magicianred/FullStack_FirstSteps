@@ -3,19 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../images/favicon-32x32.png">
+    <link rel="shortcut icon" href="images/favicon-32x32.png">
     <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
     <title>Page Project 1 - Academind</title>
 </head>
 <body>
-    <header>
-        <h1>Page Project 1 - Contact</h1>
+      <header class="header-space">
+        <h1 class="page-title">Page Project 1</h1>
     </header>
     <nav>
-        <ul>
+        <ul class="navigation">
             <li><a href="../index 1.html">Home</a></li>
             <li>Contact</li>
         </ul>
-    </nav>
+    </nav>  
+    <section class="contact-form">
+        <form action="POST">
+            <label for="full-name">Full Name</label>
+            <input class="form-input" name="full-name" type="text">
+
+            <label for="email">Email</label>
+            <input class="form-input" name="email" type="email" placeholder="example@email.com">
+
+            <label for="message">Message</label>
+            <textarea class="form-input" name="message-input" id="message" cols="30" rows="10"></textarea>
+
+            <button class="submit-btn" type="submit">Submit</button>
+        </form>
+    </section>
 </body>
 </html>
