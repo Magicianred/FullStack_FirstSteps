@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aside</title>
+</head>
+<body>
+    <h1>&lt;aside&gt;</h1>
+    <p>Content that is tangentially related to the main
+        content on your page but that could stand
+        on its own</p>
+    <p>It may be a box
+            (conceptually or literally) within the main
+            content itself, in the same column but not
+            nested in the main content, or in (or as) a
+            secondary column like a sidebar. Examples
+            of aside include a pull quote, a sidebar, a
+            box of links to related articles on a news
+            site, advertising, groups of nav elements
+            (for instance, a blog roll), a Twitter feed,
+            and a list of related products on a commerce
+            site.</p>
+    <p>If you use one or more asides in or
+            as a sidebar, place the sidebar content after
+            your page’s main content in the HTML. It’s
+            better for SEO and accessibility purposes to
+            place the most important content first.</p>
+
+
+    <header>
+        <nav role="navigation">
+            ... [ul with links] ...
+        </nav>
+    </header>
+            <article>
+                <h1 id="gaudi">Barcelona's Architect</h1>
+                ... [introductory paragraphs] ...
+                <section>
+                    <h2 id="sagrada-familia" lang="es">La Sagrada Família</h2>
+                    ... [image and paragraph] ...
+                </section>
+                <section>
+                    <h2 id="park-guell">Park Guell</h2>
+                    ... [another image and paragraphs] ...
+                </section>
+            </article>
+            <aside role="complementary">
+                <h1>Architectural Wonders of Barcelona</h1>
+                <p>Barcelona is home to many architectural wonders in addition to Gaudí's work. Some of them
+                ➝ include:</p>
+                <ul>
+                <li lang="es">Arc de Triomf</li>
+                <li>The cathedral <span lang="es">(La Seu)</span></li>
+                <li lang="es">Gran Teatre del Liceu</li>
+                <li lang="es">Pavilion Mies van der Rohe</li>
+                <li lang="es">Santa Maria del Mar</li>
+                </ul>
+                <p>Credit: <a href="http://www.barcelona.de/en/barcelona-architecture-buildings.html"
+                ➝ rel="external"><cite>Barcelona.de</cite></a>.</p>
+            </aside>    
+        
+</body>
+</html>
