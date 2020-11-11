@@ -95,19 +95,17 @@ form {
 }
 
 button {
-    background: #2962ff;
+    
     padding: 10px;
     color: white;
     border-radius: 5px;
     font: inherit;
     font-size: 12px;
-    cursor: pointer;
+    
     width: 150px;
 }
 
-button:hover, button:active {
-    background: #0026ca;
-}
+button:active {background: #0026ca;} 
 
 label {
     align-self: flex-start;
@@ -115,8 +113,7 @@ label {
     margin-bottom: 5px;
 }
 
-.form-input:focus, 
-.form-button {
+.form-input:focus {
     outline: none;
     cursor: pointer;
 }

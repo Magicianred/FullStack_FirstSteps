@@ -19,18 +19,19 @@
         </ul>
     </nav>  
     <article class="contact-form">
-        <form action="POST">
+        <form >
             <label for="full-name">Full Name</label>
-            <input class="form-input" name="full-name" type="text">
+            <input id="name-input" class="form-input" name="full-name" type="text" placeholder="First name Last name" oninput="checkInput()">
 
             <label for="email">Email</label>
-            <input class="form-input" name="email" type="email" placeholder="example@email.com">
+            <input id="email-input" class="form-input" oninput="checkInput()" name="email" type="email" placeholder="example@email.com">
 
             <label for="message">Message</label>
-            <textarea class="form-input" name="message-input" id="message" cols="30" rows="10"></textarea>
+            <textarea id="text-input" class="form-input" name="message-input" id="message" oninput="checkInput()" cols="30" rows="10" placeholder="Type your message here."></textarea>
 
-            <button class="submit-btn" type="submit">Submit</button>
+            <button class="submit-btn" type="submit" disabled>Submit</button>
         </form>
     </article>
+    <script src="main.js"></script>
 </body>
 </html>
