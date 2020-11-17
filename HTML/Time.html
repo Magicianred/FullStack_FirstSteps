@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time</title>
+</head>
+<body>
+    <h1>&lt;Time&gt;</h1>
+    <p>One of the most common uses of time is
+        to indicate the publication date of an article
+        element. To do so, include the pubdate
+        attribute. The time element with pubdate
+        represents the publication date of the
+        nearest ancestor article element</p>
+        <p>You
+            could also time-stamp an article’s readersubmitted
+            comments with time, datetime,
+            and pubdate, assuming each comment
+            is wrapped in an article element that is
+            nested in the article to which the comment
+            relates</p>
+            <p>If you use time with pubdate to indicate
+                an article’s publication date, it’s common
+                but not mandatory to place it in either a
+                header or footer element of the article
+                element. Regardless, be sure it’s nested somewhere
+                within the relevant article.</p>
+
+                <article>
+                    <header>
+                    <h1>Cheetah and Gazelle Make Fast
+                    ➝ Friends</h1>
+                    <p><time datetime="2011-10-15"
+                    ➝ pubdate="pubdate">October 15,
+                    ➝ 2011</time></p>
+                    </header>
+                    ... [article content] ...
+                    </article>
+
+            <p>Don’t use time to mark up imprecise
+                dates or times, such as "the mid-1900s," "just
+                after midnight," "the latter part of the Renaissance,"
+                or "early last week."</p>
+                <p>The datetime attribute provides the date and time in a machinereadable
+                    format, which I’ve simplified for this initial example:
+                    YYYY-MM-DDThh:mm:ss</p>
+
+            <p>The train arrives at <time>08:45</time>
+                ➝ and <time>16:20</time> on
+                ➝ <time>2012-04-10</time>.</p>
+                <p>We began our descent from the peak of
+                ➝ Everest on <time datetime="1952-06-12T11:
+                ➝ 05:00">June 12, 1952 at 11:05 a.m.
+                ➝ </time></p>
+                <p>They made their dinner reservation
+                ➝ for <time datetime="2011-09-20T18:
+                ➝ 30:00">tonight at 6:30</time>.</p>
+                <p>The record release party is on <time
+                ➝ datetime="2011-12-09"></time>.</p>
+
+                <p>If you omit the datetime attribute, the
+                    text content must conform to the valid date or
+                    time format. In other words, the first example 
+                    could not be coded as <p>The train
+                    arrives at <time>8:45 a.m.</time> and
+                    <time>4:20 p.m.</time> on <time>October
+                    4th, 2012</time>.</p>. However, when you
+                    do include datetime, you’re free to represent
+                    the date or time in the text content as you
+                    wish, as seen in the second and third examples</p>
+</body>
+</html>
