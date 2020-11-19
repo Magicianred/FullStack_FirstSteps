@@ -1,0 +1,13 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+}
+
+h1 {
+    font-size: 5.625rem;
+}
+
+p {
+    font-size: 2rem;
+}
