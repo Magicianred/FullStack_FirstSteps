@@ -1,7 +1,6 @@
 var count = 99;
 
 while (count >= 0) {
-    
     if (count === 0){
         console.log("No more bottles of beer on the wall, no more bottles of beer.");
         console.log("Go to the store and buy some more, 99 bottles of beer on the wall.");
@@ -16,6 +15,24 @@ while (count >= 0) {
         console.log("Take one down pass it around, " + (count-1) + " bottles of beer on the wall.");
     }
     count--;
+}
+
+// USING FOR LOOP
+
+for (var counter = 99; counter >= 0; counter--) {
+    if (counter === 0){
+        console.log("No more bottles of beer on the wall, no more bottles of beer.");
+        console.log("Go to the store and buy some more, 99 bottles of beer on the wall.");
+    } else if (counter === 2){
+        console.log(counter + " bottles of beer on the wall. " + counter + " bottles of beer."); 
+        console.log("Take one down pass it around, 1 bottle of beer on the wall.");
+    } else if (counter === 1){
+        console.log(counter + " bottle of beer on the wall. " + counter + " bottle of beer."); 
+        console.log("Take one down pass it around, no more bottles of beer on the wall.");
+    } else {
+        console.log(counter + " bottles of beer on the wall. " + counter + " bottles of beer."); 
+        console.log("Take one down pass it around, " + (counter-1) + " bottles of beer on the wall.");
+    }
 }
 
 
