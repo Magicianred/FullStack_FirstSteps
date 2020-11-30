@@ -1,0 +1,10 @@
+body {
+    background-color: #1b1b1b;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    background-color: #424242;
+    margin-radius: 5px;
+}
