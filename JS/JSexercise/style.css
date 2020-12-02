@@ -1,12 +1,11 @@
 body {
-    background-color: #1b1b1b;
-    color: #fff;
+    color: #1b1b1b;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
 section {
-    background-color: #424242;
+    background-color: #fff;
     border-radius: 5px;
     height: 400px;
     margin: 20% 30px;
@@ -22,8 +21,17 @@ section {
 
 }
 
+img {
+    margin: 0 auto;
+    z-index: -1;
+}
+
+
 #container {
     margin: 0 auto;
-    width: 30%;
-    
+    width: 30%;   
+}
+
+#msg {
+
 }
