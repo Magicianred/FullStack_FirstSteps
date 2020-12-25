@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Description List</title>
+</head>
+<body>
+  <h1>&lt;dt&gt;</h1>
+  <p>HTML provides a type of list specifically for
+    describing an association between names
+    (or terms) and values in groups.</p>
+
+  <dl>
+    <dt>Boris Karloff</dt>
+    <dd>Best known for his role in <cite>Frankenstein</cite> and related horror films, this
+    ➝ scaremaster's real name was William Henry Pratt.</dd>
+    <dt>Christopher Lee</dt>
+    <dd>Lee took a bite out of audiences as Dracula in multiple Hammer horror classics.</dd>
+    <dt><dfn>bogeyman</dfn>, n.</dt>
+    <dt><dfn>boogeyman</dfn>, n.</dt>
+    <dd>A mythical creature that lurks under
+    ➝ the beds of small children.</dd>
+    <p>Use the dfn element around the names
+      in the dts to indicate that the list is defining
+      terms, such as in a glossary</p>
+    <dt><dfn lang=”en-gb”>aluminium
+    ➝ </dfn>, n.</dt>
+    <dt><dfn>aluminum</dfn>, n.</dt>
+    <dd>...</dd>
+    </dl>
+    <dl>
+      <dt>Director</dt>
+      <dd>Jean-Pierre Jeunet</dd>
+      <dt>Writers</dt> <dd>Guillaume Laurant
+      ➝ (story, screenplay)</dd>
+      <dd>Jean-Pierre Jeunet (story)</dd>
+      <dt>Cast</dt>
+      <dd>
+      <!-- Start nested list -->
+      <dl>
+      <dt>Audrey Tautou</dt> <!-- Actor/
+      ➝ Actress -->
+      <dd>Am&eacute;lie Poulain</dd>
+      ➝ <!-- Character -->
+      <dt>Mathieu Kassovitz</dt>
+      <dd>Nino Quincampoix</dd>
+      ...
+      </dl>
+      <!-- end nested list -->
+      </dd>
+      ...
+      </dl>
+</body>
+</html>
