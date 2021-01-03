@@ -1,0 +1,14 @@
+Junior JavaScript Developer Interview Questions
+
+What are the data dtypes supported by JavaScript?
+R: String, Number, Boolean, Null, Undefined and Symbol.
+
+What do break and the continue statements do?
+R: Break statement jumps out of a loop, and the continue jumps over one interation.
+
+Explain the difference between var, const and let.
+R: var is scope defined and limited to a function (if outside of a function the it's global)
+let is scope defined, limited to the block (the curly braces/block of code)
+const is also block defined but cannot be changed
+
+
