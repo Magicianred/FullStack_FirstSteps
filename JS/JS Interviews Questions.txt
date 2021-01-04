@@ -9,6 +9,15 @@ R: Break statement jumps out of a loop, and the continue jumps over one interati
 Explain the difference between var, const and let.
 R: var is scope defined and limited to a function (if outside of a function the it's global)
 let is scope defined, limited to the block (the curly braces/block of code)
-const is also block defined but cannot be changed
+const is also block defined but cannot be changed/reasigned
+
+Explain the difference between null, undefined or undeclared variables.
+R: null: type of value
+undefined: variable has been declared but no value exists
+undeclared variables: variable declared without "var" keyword (ex: b = 20;)
+
+Difference between == and ===
+R: ==: does type conversion (string "20" == number 20)
+===: needs type equality
 
 
