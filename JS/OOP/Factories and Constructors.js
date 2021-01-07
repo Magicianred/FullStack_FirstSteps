@@ -25,3 +25,11 @@ function Circle(radius) { //will create an empty object
   }
 };
 const another = new Circle(1); //HAVE to use the "new" operator
+//every object have a constructor property that reveals the function that made them
+//another.constructor()
+//f Circle(radius){ 
+//   this.radius = radius;   
+//   this.draw = function() {
+//     console.log("draw");
+//   }
+// };
