@@ -1,0 +1,18 @@
+.banner-description {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #FFF;
+	background-color: rgba(0, 0, 0, .65);
+	padding: 15px 25px;
+	opacity: 0;
+	transition-property: all;
+	transition-duration: 1s;
+	transform: translateY(100%);
+}
+
+.image-banner:hover .banner-description {
+	opacity: 1;
+	transform: translateY(0);
+}
+
