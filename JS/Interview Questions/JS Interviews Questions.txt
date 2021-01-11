@@ -17,7 +17,11 @@ undefined: variable has been declared but no value exists
 undeclared variables: variable declared without "var" keyword (ex: b = 20;)
 
 Difference between == and ===
-R: ==: does type conversion (string "20" == number 20)
-===: needs type equality
+R: ==: does data type conversion (string "20" == number 20)
+===: needs data type equality
+
+Algumas perguntas são tudo sobre confiança em suas habilidades, principalmente para juniors, como por exemplo:
+Qual sua maior conquista como programador até hoje?
+Escolha um projeto que você fez: quais foram suas dificuldades e como vc as superou?
 
 

@@ -3,7 +3,7 @@
 // Sample Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, …
 // Equasion: Fn = (Fn-1) + (Fn-2)
 
-var fibonacciArray = [0,1];
+var fibonacciArray = [0, 1];
 var length;
 
 function fibSequence (length) {
@@ -11,16 +11,28 @@ function fibSequence (length) {
         fibonacciArray.push( fibonacciArray[i-1] + fibonacciArray[i-2]);
     }
     return fibonacciArray;
-}
+};
 console.log(fibSequence(50));
 
 
-
+//Without lenght
 function calculateFibonacciNumbers(max) {
     var fib = [0, 1];
     for (var i = 2; i < max; i++ ) {
       fib.push( fib[i - 1] + fib[i - 2] );
     }
     return fib;
+};
+console.log(calculateFibonacciNumbers(50));
+
+//With recursion
+const fibonacci = num => {
+  console.log(num);
+  if(num < 2) {
+    return num
   }
-  console.log(calculateFibonacciNumbers(50));
+  // recursion here
+  return fibonacci(num - 1) + fibonacci(num - 2);
+};
+
+console.log(fibonacci(5));
