@@ -1,0 +1,190 @@
+
+/* Bounce Animation */
+@-webkit-keyframes fadeBounce {
+	
+	0% {
+		opacity: 0;
+		transform: translateY(-200%);
+	}
+	
+	40% {
+		transform: translateY(0);
+	}
+	
+	55% {
+		transform: translateY(-6px);
+	}
+	
+	70% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	
+	85% {
+		transform: translateY(-3px);
+	}
+		
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	
+}
+
+@keyframes fadeBounce {
+	
+	0% {
+		opacity: 0;
+		transform: translateY(-200%);
+	}
+	
+	40% {
+		transform: translateY(0);
+	}
+	
+	55% {
+		transform: translateY(-6px);
+	}
+	
+	70% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	
+	85% {
+		transform: translateY(-3px);
+	}
+		
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	
+}
+
+
+/* End Bounce Animation */
+
+
+
+
+
+
+
+
+.box-a {
+	opacity: 0;
+	animation: fadeBounce 1s forwards;
+	-webkit-animation: fadeBounce 1s forwards;
+	background-color: #e7eff5;
+	padding: 20px 20px 0 20px;
+	border: 2px solid #d3dee7;
+	margin-bottom: 30px;
+	box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, .10);
+	border-radius: 10px;
+}
+
+.boxes :nth-child(2) .box-a {
+	animation-delay: .5s;
+	-webkit-animation-delay: .5s;
+}
+
+.boxes :nth-child(3) .box-a {
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+}
+
+.boxes :nth-child(4) .box-a {
+	animation-delay: 1.5s;
+	-webkit-animation-delay: 1.5s;
+}
+
+.box-b {
+	text-align: center;
+	background-color: #CCC;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	margin-bottom: 40px;
+	border-radius: 50%;
+	transition: all 1s ease-out;
+}
+
+.box-b:hover {
+	transform: rotate(360deg);
+}
+
+/* Star Animation */
+@-webkit-keyframes slideSpin {
+	
+	50% {
+		transform: translateX(150%) scale(.5);
+	}
+	
+	75% {
+		transform: translateX(150%) rotate(180deg) scale(.5);
+	}
+			
+	100% {
+		transform: translateX(300%) rotate(180deg);
+	}
+	
+}
+
+@keyframes slideSpin {
+	
+	50% {
+		transform: translateX(150%) scale(.5);
+	}
+	
+	75% {
+		transform: translateX(150%) rotate(180deg) scale(.5);
+	}
+			
+	100% {
+		transform: translateX(300%) rotate(180deg);
+	}
+	
+}
+
+
+.star {
+	-webkit-animation: slideSpin 2s infinite alternate forwards;
+	animation: slideSpin 2s infinite alternate forwards;
+	width: 25%;
+	height: auto;
+}
+
+/* Banner Overlay */
+.image-banner {
+	position: relative;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+
+.image-banner img {
+	display: block;
+	transition: all 2s;
+}
+
+.image-banner:hover img {
+	transform: scale(1.5);
+}
+
+.banner-description {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #FFF;
+	background-color: rgba(0, 0, 0, .65);
+	padding: 15px 25px;
+	opacity: 0;
+	transition-property: all;
+	transition-duration: 1s;
+	transform: translateY(100%);
+}
+
+.image-banner:hover .banner-description {
+	opacity: 1;
+	transform: translateY(0);
+}
