@@ -24,4 +24,20 @@ Algumas perguntas são tudo sobre confiança em suas habilidades, principalmente
 Qual sua maior conquista como programador até hoje?
 Escolha um projeto que você fez: quais foram suas dificuldades e como vc as superou?
 
+Data Types:
+	Value Types:
+		Number
+		String
+		Boolean
+		Symbol
+		Undefined
+		Null
+
+	Reference Types:
+		Object
+		Function
+		Array
+
+
+
 
