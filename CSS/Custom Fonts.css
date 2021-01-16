@@ -1,0 +1,47 @@
+/* Need to upload font family in 4 file formats (eot, svg, ttf and woff) in its own folder, inside css folder. */
+
+/* Custom Fonts: defining a font */
+@font-face {
+  font-family: "name-of-font";
+  src: url("fonts/name-of-font.eot");/* for IE9 */
+  src: url("fonts/name-of-font.eot?#iefix") format("embedded-opentype"), /* older versions of IE */
+       url("fonts/name-of-font.woff") format("woff"), /* for latests browsers and devices*/
+       url("fonts/name-of-font.ttf") format("truetype"),/* for slightly older devices*/
+       url("fonts/name-of-font.svg#font_name") format("svg"); /* for certain touch screen or mobile devices*/
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face { /* BOLD */
+  font-family: "name-of-font";
+  src: url("fonts/name-of-font-Bold.eot");/* for IE9 */
+  src: url("fonts/name-of-font-Bold.eot?#iefix") format("embedded-opentype"), /* older versions of IE */
+       url("fonts/name-of-font-Bold.woff") format("woff"), /* for latests browsers and devices*/
+       url("fonts/name-of-font-Bold.ttf") format("truetype"),/* for slightly older devices*/
+       url("fonts/name-of-font-Bold.svg#font_name") format("svg"); /* for certain touch screen or mobile devices*/
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face { /* Italic */
+  font-family: "name-of-font";
+  src: url("fonts/name-of-font-Italic.eot");/* for IE9 */
+  src: url("fonts/name-of-font-Italic.eot?#iefix") format("embedded-opentype"), /* older versions of IE */
+       url("fonts/name-of-font-Italic.woff") format("woff"), /* for latests browsers and devices*/
+       url("fonts/name-of-font-Italic.ttf") format("truetype"),/* for slightly older devices*/
+       url("fonts/name-of-font-Italic.svg#font_nameitalic") format("svg"); /* for certain touch screen or mobile devices*/
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face { /* BOLD and Italic */
+  font-family: "name-of-font";
+  src: url("fonts/name-of-font-Italic.eot");/* for IE9 */
+  src: url("fonts/name-of-font-Italic.eot?#iefix") format("embedded-opentype"), /* older versions of IE */
+       url("fonts/name-of-font-Italic.woff") format("woff"), /* for latests browsers and devices*/
+       url("fonts/name-of-font-Italic.ttf") format("truetype"),/* for slightly older devices*/
+       url("fonts/name-of-font-Italic.svg#font_namebold_italic") format("svg"); /* for certain touch screen or mobile devices*/
+  font-weight: bold;
+  font-style: italic;
+}
+/* End Custom Fonts */
