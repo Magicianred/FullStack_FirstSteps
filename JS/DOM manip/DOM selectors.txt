@@ -1,0 +1,30 @@
+DOM Selectors
+--------------
+getElementsByTagName
+getElementsByClassName
+getElementById
+
+querySelector
+querySelectorAll
+
+getAttribute
+setAttribute
+
+##It is important to CACHE selectors in variables
+
+##Changing Styles
+style.{property} //ok
+
+className //best: better get a class from css file for separation of concerns
+classList //best
+
+classList.add
+classList.remove
+classList.toggle
+
+##Bonus
+innerHTML //DANGEROUS
+
+parentElement
+children
+
