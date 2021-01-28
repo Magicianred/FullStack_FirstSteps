@@ -1,0 +1,59 @@
+Setar meu usuário na máquina:
+
+
+set username e email:
+git config  --global user.name "colocarNome"
+git config  --global user.email "colocarEmail@email.com"
+
+definir editor de código: git config --global core.editor "colocar caminho para pasta do editor"
+
+cores das linhas: git config --global color.ui auto
+		  git config --global color.diff auto
+		  git config --global color.status auto
+		  git config --global color.branch auto
+
+
+
+
+ver configurações existentes: git config --list
+
+---------------------------------------
+
+ver diretório atual: pwd (print working directory)
+acessar pasta: digitar cmd no explorer, digitar comando cd e arrastar a pasta em seguida
+
+fazer pasta: mkdir "nome-da-nova-pasta"
+
+Inicializar versionamento do projeto/novo repositório: git init
+
+novo arquivo: touch "index.html"
+abrir no editor: code "index.html"
+
+Adicionar à área temporária: git add * (todos os arquivos)
+			     git add -A (todos os modificados)
+			     git add *.js (transfere de extensão expecífica)
+
+Commit: git commit -m "mensagem"
+Voltar para o último commit: git checkout -- .
+
+---------------------------------------
+
+Clonar: git clone https://github.com/endereco-do-repositorio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
