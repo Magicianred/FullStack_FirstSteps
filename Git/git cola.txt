@@ -35,6 +35,7 @@ Adicionar à área temporária: git add * (todos os arquivos)
 
 Commit: git commit -m "mensagem"
 Voltar para o último commit: git checkout -- .
+Ver diferenças/modificações: git diff
 
 ---------------------------------------
 
@@ -44,9 +45,11 @@ salvar sem ser do repositório clonado original/salvar a minha própria versão:
 	git push origin master
 	-----
 	
+---------------------------------------
 
-
-
+Branch: git checkou -b "nome-da-nova-branch"
+Salvar na branch: git push origin "nome-da-nova-branch"
+Fazer pull request: pelo site, clicar em pull request no histórico de commits da branch
 
 
 
