@@ -43,8 +43,7 @@ salvar sem ser do repositório clonado original/salvar a minha própria versão:
 	git remote set-url origin https://https://github.com/endereco-do-repositorio-criado-na-sua-conta (update o endereço remoto do repositório no qual será salvo)
 	git push origin master
 	-----
-	para salvar em um subrepositório num repositório já existente: https://gullele.com/git-add-subdirectories/
-
+	
 
 
 
